@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //TEST
+
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
             URL url = new URL("http://www.cbu.uz/oz/arkhiv-kursov-valyut/json/");
